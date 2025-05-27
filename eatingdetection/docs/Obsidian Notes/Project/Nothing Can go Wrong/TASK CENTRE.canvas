@@ -1,0 +1,39 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 740,
+      "id": "29fb3909f357d7f3",
+      "label": "CURRENT TASKS",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1840,
+      "x": -960,
+      "y": -1040
+    },
+    {
+      "height": 680,
+      "id": "891bed634848ebcd",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://calendar.google.com/calendar/u/0/r",
+      "width": 640,
+      "x": 220,
+      "y": -1000
+    },
+    {
+      "height": 680,
+      "id": "b9b0a72580e68ae1",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://calendar.google.com/calendar/u/0/r/tasks",
+      "width": 1140,
+      "x": -940,
+      "y": -1000
+    }
+  ]
+}

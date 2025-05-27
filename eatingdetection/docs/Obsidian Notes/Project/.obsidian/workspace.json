@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "675006762ae6cd3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d1466414f041c34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fb57769d75a7c9b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Nothing Can go Wrong/ALPHA DEV/ALPHA DEV.canvas",
+                "viewState": {
+                  "x": 98.6854248046875,
+                  "y": -1765.036575506746,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ALPHA DEV"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd4f8f2dbf0fed52",
+    "type": "split",
+    "children": [
+      {
+        "id": "29bff2cb919fda11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31415cbb3b95cc1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "329998df482d71c2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "87017b99466840fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "73115afb90411d11",
+    "type": "split",
+    "children": [
+      {
+        "id": "1576f7f717a9f32c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83855d876c5aa8c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Nothing Can go Wrong/ALPHA DEV/ALPHA DEV.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ALPHA DEV"
+            }
+          },
+          {
+            "id": "2f3ebf2d16f2826b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "08b3de7ada0eb21b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1a2b45dfc9be99f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7fb57769d75a7c9b",
+  "lastOpenFiles": [
+    "Nothing Can go Wrong/Additional files/NewDesignDocTemplate.pdf",
+    "Nothing Can go Wrong/Additional files/Detailed Game Design Documentation Template.pdf",
+    "Nothing Can go Wrong/Additional files/ANTI MAGNETS.md",
+    "Nothing Can go Wrong/Additional files/Attention Magnets.md"
+  ]
+}

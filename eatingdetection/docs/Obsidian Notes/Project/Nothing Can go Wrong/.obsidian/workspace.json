@@ -1,0 +1,341 @@
+{
+  "main": {
+    "id": "4bdb32ce2003ef78",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1acea91b57f2889",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d04a463f5a93bebb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FIRST STAGE/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "09f455a321cde68d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FIRST STAGE/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "533c511c3b1c982d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MEETINGS/18.05.2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "18.05.2025"
+            }
+          },
+          {
+            "id": "bc0be0ba2062c307",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FIRST STAGE/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "cf706bbeaea0f9d4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-26 09.48.15.excalidraw"
+            }
+          },
+          {
+            "id": "4ba3f8efaa20fe94",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://research.google.com/youtube8m/explore.html",
+                "title": "YouTube-8M: A Large and Diverse Labeled Video Dataset for Video Understanding Research",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "YouTube-8M: A Large and Diverse Labeled Video Dataset for Video Understanding Research"
+            }
+          },
+          {
+            "id": "72689e41a94debba",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/670669662/Yolov5-Human-Tracking",
+                "title": "GitHub - 670669662/Yolov5-Human-Tracking: Multi-target tracking simultation and record based on YOLOv5 and DeepSORT",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - 670669662/Yolov5-Human-Tracking: Multi-target tracking simultation and record based on YOLOv5 and DeepSORT"
+            }
+          },
+          {
+            "id": "53da4e268dc5dcbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MEETINGS/18.05.2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "18.05.2025"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "851fceb7482d280c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f189503bad19a17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "888dae26c5c31efe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "335f376333bbdbcd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a11adfac40ad2836",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "right": {
+    "id": "bdeb40dea01106a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "d47bb732f71351b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1680e462f360f77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GAME DESIGN DOCUMENT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for GAME DESIGN DOCUMENT"
+            }
+          },
+          {
+            "id": "2a892619ddced945",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GAME DESIGN DOCUMENT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GAME DESIGN DOCUMENT"
+            }
+          },
+          {
+            "id": "e76997c8e9a03457",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "016af7637f0d1765",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MEETINGS/26.05.2025.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 26.05.2025"
+            }
+          },
+          {
+            "id": "85f52e1c945502db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "63b3bb8cd7a3db07",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 407.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "custom-sort:Toggle custom sorting": false
+    }
+  },
+  "active": "cf706bbeaea0f9d4",
+  "lastOpenFiles": [
+    "MEETINGS/18.05.2025.md",
+    "MEETINGS/26.05.2025.md",
+    "Pasted image 20250525135800.png",
+    "Studying/UML.canvas",
+    "Pasted image 20250526095748.png",
+    "IDEAS/IDEA GENERATION.canvas",
+    "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
+    "FIRST STAGE/Untitled.md",
+    "Excalidraw",
+    "TASK CENTRE.canvas",
+    "Untitled.md",
+    "Studying",
+    "Pasted image 20250525140123.png",
+    "Pasted image 20250525122740.png",
+    "Pasted Image 20250214143407_603.png",
+    "FIRST STAGE/PRODUSIGN.md",
+    "FIRST STAGE/Drawing 2025-02-14 15.03.36.excalidraw.md",
+    "FIRST STAGE/GAME DESIGN DOCUMENT.md",
+    "MEETINGS",
+    "FIRST STAGE/PRODUSIGN.canvas",
+    "FIRST STAGE/Market Research Document.md",
+    "ALPHA DEV/ALPHA DEV.canvas",
+    "ALPHA DEV/ALPHA DEV.md",
+    "IDEAS/IDEA GENERATION AND GREENLIGHTING.md",
+    "IDEAS/Drawing 2025-02-14 14.33.35.excalidraw.svg",
+    "FIRST STAGE/Production and Development Plan.md",
+    "RELEASE/RELEASE.md",
+    "WRAP UP/WRAP UP.md",
+    "RELEASE/RELEASE.canvas",
+    "BETA DEV/BETA DEV.md",
+    "BETA DEV/BETA DEV.canvas",
+    "FIRST STAGE/Drawing 2025-02-14 15.03.36.excalidraw.svg",
+    "PRODUSIGN/Drawing 2025-02-14 15.01.34.excalidraw.md",
+    "PRODUSIGN/Drawing 2025-02-14 15.01.34.excalidraw.svg",
+    "IDEA GENERATION AND GREENLIGHTING/Drawing 2025-02-14 14.33.35.excalidraw.md",
+    "ALPHA DEV/Drawing 2025-02-14 14.33.14.excalidraw.md",
+    "Additional files/Detailed Game Design Documentation Template.pdf",
+    "IDEA GENERATION AND GREENLIGHTING/Drawing 2025-02-14 14.33.35.excalidraw.png",
+    "Zasób 1@4x.png",
+    "WRAP UP/WRAP UP.canvas",
+    "Additional files/ANTI MAGNETS.md",
+    "Additional files/Attention Magnets.md",
+    "PRODUSIGN/Design Document.md",
+    "Excalidraw/Drawing 2025-01-27 20.48.19.excalidraw.md",
+    "2025-02-02.md",
+    "Additional files/NewDesignDocTemplate.pdf"
+  ]
+}

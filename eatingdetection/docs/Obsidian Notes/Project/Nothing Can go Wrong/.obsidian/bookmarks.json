@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1738523003498,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1738524979588,
+          "path": "TASK CENTRE.canvas",
+          "subpath": "#^-"
+        },
+        {
+          "type": "group",
+          "ctime": 1738524979588,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1738524979588,
+              "path": "IDEAS/IDEA GENERATION AND GREENLIGHTING.md",
+              "subpath": "#^-"
+            }
+          ],
+          "title": "IDEAS"
+        },
+        {
+          "type": "group",
+          "ctime": 1738523003498,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1738523003498,
+              "path": "FIRST STAGE/PRODUSIGN.md",
+              "subpath": "#^-"
+            }
+          ],
+          "title": "FIRST STAGE"
+        },
+        {
+          "type": "file",
+          "ctime": 1738525445965,
+          "path": "2025-02-02.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1738525445965,
+          "path": "lista.txt",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1738525445965,
+          "path": "lista.html",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1738525445965,
+          "path": "lista.js",
+          "subpath": "#^-"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}

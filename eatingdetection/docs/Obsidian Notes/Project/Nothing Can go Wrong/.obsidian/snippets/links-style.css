@@ -1,0 +1,21 @@
+/* Stylowanie tylko dla Canvas w Obsidianie */
+.canvas-wrapper a {
+  color: blanchedalmond; /* Kolor linków */
+  background: none; /* Usuń tło lub gradient */
+  transition: color 350ms ease-in-out; /* Płynna zmiana koloru */
+  font-weight: bold; /* Pogrubienie tekstu */
+  text-decoration: none;
+  text-align: center;
+}
+
+.canvas-wrapper a:where(:hover, :focus-visible) {
+  text-decoration: none;
+  color: slateblue; /* Zmiana koloru po najechaniu */
+  background: none; /* Usuń gradient pojawiający się pod linkiem */
+}
+
+
+.canvas-wrapper a {
+  text-decoration: none; /* Usuń wszelkie podkreślenia */
+  line-height: 1.5;
+}

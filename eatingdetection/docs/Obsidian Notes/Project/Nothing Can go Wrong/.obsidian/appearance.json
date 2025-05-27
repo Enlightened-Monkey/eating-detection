@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "links-style"
+  ],
+  "baseFontSize": 16
+}
