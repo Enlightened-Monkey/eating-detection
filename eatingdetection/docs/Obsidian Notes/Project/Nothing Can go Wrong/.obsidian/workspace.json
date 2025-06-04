@@ -85,13 +85,44 @@
               "state": {
                 "file": "FIRST STAGE/UML Diagram.canvas",
                 "viewState": {
-                  "x": 1346.342119017304,
-                  "y": -532.2103850074516,
-                  "zoom": -1.4409859513164793
+                  "x": 1473.466436606165,
+                  "y": -305.3905276356093,
+                  "zoom": -0.9780230003623394
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "UML Diagram"
+            }
+          },
+          {
+            "id": "f3c33cce395f255e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Studying/UML.canvas",
+                "viewState": {
+                  "x": 1063.8238934162755,
+                  "y": -275.0450752347967,
+                  "zoom": -0.008055100175557994
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "UML"
+            }
+          },
+          {
+            "id": "1cc7769e1c19714d",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/",
+                "title": "What is DFD(Data Flow Diagram)? | GeeksforGeeks",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "What is DFD(Data Flow Diagram)? | GeeksforGeeks"
             }
           },
           {
@@ -123,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -278,7 +309,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 240.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,18 +325,21 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4ba3f8efaa20fe94",
+  "active": "1cc7769e1c19714d",
   "lastOpenFiles": [
+    "Studying/UML.canvas",
+    "MEETINGS/26.05.2025.md",
+    "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.svg",
+    "FIRST STAGE/UML Diagram.canvas",
+    "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.png",
     "TASK CENTRE.canvas",
     "MEETINGS/18.05.2025.md",
-    "MEETINGS/26.05.2025.md",
     "MEETINGS/02.06.2025.md",
-    "Studying/UML.canvas",
-    "FIRST STAGE/UML Diagram.canvas",
     "Pasted image 20250604093055.png",
     "FIRST STAGE/Untitled.md",
     "Pasted image 20250525135800.png",
-    "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
     "Pasted image 20250526095748.png",
     "IDEAS/IDEA GENERATION.canvas",
     "Excalidraw",
@@ -332,11 +366,9 @@
     "BETA DEV/BETA DEV.canvas",
     "FIRST STAGE/Drawing 2025-02-14 15.03.36.excalidraw.svg",
     "PRODUSIGN/Drawing 2025-02-14 15.01.34.excalidraw.md",
-    "PRODUSIGN/Drawing 2025-02-14 15.01.34.excalidraw.svg",
     "IDEA GENERATION AND GREENLIGHTING/Drawing 2025-02-14 14.33.35.excalidraw.md",
     "ALPHA DEV/Drawing 2025-02-14 14.33.14.excalidraw.md",
     "Additional files/Detailed Game Design Documentation Template.pdf",
-    "IDEA GENERATION AND GREENLIGHTING/Drawing 2025-02-14 14.33.35.excalidraw.png",
     "WRAP UP/WRAP UP.canvas",
     "Additional files/ANTI MAGNETS.md",
     "Additional files/Attention Magnets.md",

@@ -1,4 +1,5 @@
 {
   "snapToObjects": false,
-  "snapToGrid": true
+  "snapToGrid": true,
+  "cardLabelVisibility": "hover"
 }

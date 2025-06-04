@@ -167,16 +167,16 @@
       "y": -160
     },
     {
-      "height": 300,
-      "id": "d6bb9220a5ea7d0b",
+      "height": 60,
+      "id": "c4a57ad0190e17a3",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "<h1>CLASS NAME</h1>\n__________________________\n<h2>Attributes</h2>\n__________________________\n\n<h2>Methods</h2>\n\n",
+      "text": "ASSOCIATION",
       "type": "text",
-      "width": 320,
-      "x": 40,
-      "y": -80
+      "width": 180,
+      "x": -520,
+      "y": -100
     },
     {
       "height": 260,
@@ -188,6 +188,18 @@
       "width": 740,
       "x": -180,
       "y": 260
+    },
+    {
+      "height": 300,
+      "id": "d6bb9220a5ea7d0b",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "<h1>CLASS NAME</h1>\n__________________________\n<h2>Attributes</h2>\n__________________________\n\n<h2>Methods</h2>\n\n",
+      "type": "text",
+      "width": 320,
+      "x": 40,
+      "y": -80
     },
     {
       "height": 80,
@@ -258,30 +270,6 @@
       "y": 200
     },
     {
-      "height": 60,
-      "id": "c515f9dffc0c7581",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "AGGREGATION",
-      "type": "text",
-      "width": 180,
-      "x": -520,
-      "y": 300
-    },
-    {
-      "height": 60,
-      "id": "c4a57ad0190e17a3",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "ASSOCIATION",
-      "type": "text",
-      "width": 180,
-      "x": -520,
-      "y": -100
-    },
-    {
       "height": 80,
       "id": "9ab13bfacb4938e4",
       "styleAttributes": {
@@ -303,6 +291,18 @@
       "width": 180,
       "x": -520,
       "y": 0
+    },
+    {
+      "height": 60,
+      "id": "c515f9dffc0c7581",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "AGGREGATION",
+      "type": "text",
+      "width": 180,
+      "x": -520,
+      "y": 300
     },
     {
       "height": 80,
