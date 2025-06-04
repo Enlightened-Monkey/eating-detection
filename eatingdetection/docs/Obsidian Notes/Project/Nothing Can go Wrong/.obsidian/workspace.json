@@ -67,26 +67,31 @@
             "id": "cf706bbeaea0f9d4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md"
+                "file": "FIRST STAGE/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-26 09.48.15.excalidraw"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
             "id": "4ba3f8efaa20fe94",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "canvas",
               "state": {
-                "url": "https://research.google.com/youtube8m/explore.html",
-                "title": "YouTube-8M: A Large and Diverse Labeled Video Dataset for Video Understanding Research",
-                "mode": "webview"
+                "file": "FIRST STAGE/UML Diagram.canvas",
+                "viewState": {
+                  "x": 1346.342119017304,
+                  "y": -532.2103850074516,
+                  "zoom": -1.4409859513164793
+                }
               },
-              "icon": "globe-2",
-              "title": "YouTube-8M: A Large and Diverse Labeled Video Dataset for Video Understanding Research"
+              "icon": "lucide-layout-dashboard",
+              "title": "UML Diagram"
             }
           },
           {
@@ -118,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -273,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,18 +294,21 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "cf706bbeaea0f9d4",
+  "active": "4ba3f8efaa20fe94",
   "lastOpenFiles": [
+    "TASK CENTRE.canvas",
     "MEETINGS/18.05.2025.md",
     "MEETINGS/26.05.2025.md",
-    "Pasted image 20250525135800.png",
+    "MEETINGS/02.06.2025.md",
     "Studying/UML.canvas",
+    "FIRST STAGE/UML Diagram.canvas",
+    "Pasted image 20250604093055.png",
+    "FIRST STAGE/Untitled.md",
+    "Pasted image 20250525135800.png",
+    "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
     "Pasted image 20250526095748.png",
     "IDEAS/IDEA GENERATION.canvas",
-    "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
-    "FIRST STAGE/Untitled.md",
     "Excalidraw",
-    "TASK CENTRE.canvas",
     "Untitled.md",
     "Studying",
     "Pasted image 20250525140123.png",
@@ -329,7 +337,6 @@
     "ALPHA DEV/Drawing 2025-02-14 14.33.14.excalidraw.md",
     "Additional files/Detailed Game Design Documentation Template.pdf",
     "IDEA GENERATION AND GREENLIGHTING/Drawing 2025-02-14 14.33.35.excalidraw.png",
-    "Zasób 1@4x.png",
     "WRAP UP/WRAP UP.canvas",
     "Additional files/ANTI MAGNETS.md",
     "Additional files/Attention Magnets.md",

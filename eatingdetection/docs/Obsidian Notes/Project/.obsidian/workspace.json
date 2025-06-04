@@ -11,17 +11,10 @@
             "id": "7fb57769d75a7c9b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Nothing Can go Wrong/ALPHA DEV/ALPHA DEV.canvas",
-                "viewState": {
-                  "x": 98.6854248046875,
-                  "y": -1765.036575506746,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALPHA DEV"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nothing Can go Wrong/ALPHA DEV/ALPHA DEV.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ALPHA DEV"
+              "title": "Backlinks"
             }
           },
           {

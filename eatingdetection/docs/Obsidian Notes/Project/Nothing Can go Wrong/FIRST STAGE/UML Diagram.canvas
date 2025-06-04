@@ -1,0 +1,459 @@
+{
+  "edges": [
+    {
+      "fromNode": "eaa4a7902b2bc260",
+      "fromSide": "right",
+      "id": "9b5ff5aa77ed2c95",
+      "styleAttributes": {
+        "arrow": "thin-triangle",
+        "path": "short-dashed"
+      },
+      "toNode": "af686495106bfbf9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b209d7deda0b5d00",
+      "fromSide": "right",
+      "id": "1610df6b0f8df2a2",
+      "styleAttributes": {
+        "arrow": null,
+        "path": "short-dashed"
+      },
+      "toNode": "30fd154a7d58c820",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f9f954a97f04d62",
+      "fromSide": "left",
+      "id": "53b77029a516aef9",
+      "styleAttributes": {
+        "arrow": "diamond-outline"
+      },
+      "toNode": "ecd3784e95cc3a10",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "704562e430442fe7",
+      "fromSide": "right",
+      "id": "488019e216179422",
+      "styleAttributes": {
+        "arrow": "triangle-outline"
+      },
+      "toNode": "715237d51ded25cd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "53b4c3469965985e",
+      "fromSide": "right",
+      "id": "22183f0144e884ac",
+      "styleAttributes": {
+      },
+      "toEnd": "none",
+      "toNode": "a1e2af495e557568",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3a95f52037080c64",
+      "fromSide": "left",
+      "id": "483c668c09b6e728",
+      "styleAttributes": {
+        "arrow": "diamond"
+      },
+      "toNode": "f273109b8e7c495c",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "a6efb6ca4e5de40e",
+      "fromSide": "top",
+      "id": "89d6628fea4a338d",
+      "styleAttributes": {
+        "arrow": "diamond",
+        "path": "short-dashed",
+        "pathfindingMethod": "square"
+      },
+      "toNode": "1d12a7f1f87955aa",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "c65fb6b8462a666e",
+      "fromSide": "top",
+      "id": "b3c84f9980afa6a2",
+      "styleAttributes": {
+        "arrow": "diamond",
+        "path": "short-dashed",
+        "pathfindingMethod": "square"
+      },
+      "toNode": "1d12a7f1f87955aa",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e7350f1c99b7461a",
+      "fromSide": "top",
+      "id": "2468d8d8212a745b",
+      "styleAttributes": {
+        "arrow": "diamond",
+        "path": "short-dashed",
+        "pathfindingMethod": "square"
+      },
+      "toNode": "1d12a7f1f87955aa",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "c65fb6b8462a666e",
+      "fromSide": "bottom",
+      "id": "fc69e6300a81ef1a",
+      "label": "1\n*",
+      "styleAttributes": {
+      },
+      "toEnd": "none",
+      "toNode": "d925b166f33ccbe5",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 1080,
+      "id": "a0a52fec558f87c9",
+      "label": "CLASS DIAGRAM",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1320,
+      "x": -920,
+      "y": -600
+    },
+    {
+      "height": 700,
+      "id": "f2ff8dea399e4ab1",
+      "label": "RELATIONSHIPS",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 420,
+      "x": -880,
+      "y": -260
+    },
+    {
+      "color": "5",
+      "height": 180,
+      "id": "bd00169c4b0c8719",
+      "label": "ACCESS MODIFIERS ",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 280,
+      "x": -880,
+      "y": -520
+    },
+    {
+      "height": 360,
+      "id": "aaee675ff4d24168",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://www.youtube.com/watch?v=WnMQ8HlmeXc",
+      "width": 740,
+      "x": -400,
+      "y": -560
+    },
+    {
+      "height": 140,
+      "id": "f7347b50b61212bc",
+      "styleAttributes": {
+      },
+      "text": "'+' Public \n'-' Private\n'#' Protected\n'~' Package Local",
+      "type": "text",
+      "width": 200,
+      "x": -840,
+      "y": -500
+    },
+    {
+      "height": 80,
+      "id": "f273109b8e7c495c",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": 260
+    },
+    {
+      "height": 80,
+      "id": "ecd3784e95cc3a10",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": 160
+    },
+    {
+      "height": 60,
+      "id": "5199202be07450c8",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DEPENDENCY",
+      "type": "text",
+      "width": 180,
+      "x": -760,
+      "y": 120
+    },
+    {
+      "height": 60,
+      "id": "e4a8502adace2cf3",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "AGGREGATION",
+      "type": "text",
+      "width": 180,
+      "x": -760,
+      "y": 220
+    },
+    {
+      "height": 80,
+      "id": "eaa4a7902b2bc260",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": 60
+    },
+    {
+      "height": 80,
+      "id": "53b4c3469965985e",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": -240
+    },
+    {
+      "height": 300,
+      "id": "6d64c2fd9eb7fb1d",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "<h1>CLASS NAME</h1>\n__________________________\n<h2>Attributes</h2>\n__________________________\n\n<h2>Methods</h2>\n\n",
+      "type": "text",
+      "width": 320,
+      "x": -200,
+      "y": -160
+    },
+    {
+      "height": 260,
+      "id": "b97d80caff687f6c",
+      "styleAttributes": {
+      },
+      "text": "\n| Feature              | Conceptual                             | Specification                                | Implementation                     |\n|----------------------|----------------------------------------|----------------------------------------------|------------------------------------|\n| Level of Abstraction | High (reality, domain)                 | Medium (interfaces, behaviors)               | Low (code details)                 |\n| Detail Level         | General concepts, no technical details | Attributes and operations, no implementation | Full details, including data types |\n| Language Dependency  | Independent                            | Partially dependent                          | Dependent on programming language  |\n| User                 | Analysts, business users               | System designers                             | Programmers                        |\n\n",
+      "type": "text",
+      "width": 740,
+      "x": -420,
+      "y": 180
+    },
+    {
+      "height": 80,
+      "id": "4f9f954a97f04d62",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": 160
+    },
+    {
+      "height": 80,
+      "id": "3a95f52037080c64",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": 260
+    },
+    {
+      "height": 60,
+      "id": "72bc5eaefca92f8d",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "COMPOSITION",
+      "type": "text",
+      "width": 180,
+      "x": -760,
+      "y": 320
+    },
+    {
+      "height": 80,
+      "id": "a1e2af495e557568",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": -240
+    },
+    {
+      "height": 80,
+      "id": "715237d51ded25cd",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": -140
+    },
+    {
+      "height": 80,
+      "id": "30fd154a7d58c820",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": -40
+    },
+    {
+      "height": 80,
+      "id": "af686495106bfbf9",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": 60
+    },
+    {
+      "height": 60,
+      "id": "3cfeb2c5e7cd71e9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "ASSOCIATION",
+      "type": "text",
+      "width": 180,
+      "x": -760,
+      "y": -180
+    },
+    {
+      "height": 80,
+      "id": "704562e430442fe7",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": -140
+    },
+    {
+      "height": 60,
+      "id": "516dbaad98dbe374",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "REALISATION",
+      "type": "text",
+      "width": 180,
+      "x": -760,
+      "y": 20
+    },
+    {
+      "height": 60,
+      "id": "8a77d8e5aabd8cee",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "INHERITANCE",
+      "type": "text",
+      "width": 180,
+      "x": -760,
+      "y": -80
+    },
+    {
+      "height": 80,
+      "id": "b209d7deda0b5d00",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": -40
+    },
+    {
+      "height": 420,
+      "id": "a6efb6ca4e5de40e",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>Camera</h1>\n\n__________________________\n<ul>\n<li>-camera_id: int</li>\n<li>-resolution: int </li>\n<li>-frame_rate: int </li>\n</ul>\n\n__________________________\n<ul>\n<li>+capture_frame(): Image</li>\n<li>+start_stream()</li>\n<li>+stop_stream() </li>\n</ul>\n\n\n\n\n",
+      "type": "text",
+      "width": 320,
+      "x": 460,
+      "y": -600
+    },
+    {
+      "height": 420,
+      "id": "1d12a7f1f87955aa",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>FoodDetectionSystem</h1>\n\n__________________________\n\n<ul>\n<li>-camera: Camera </li>\n<li>-detector: FoodDetector</li>\n<li>-notifier: NotificationSystem</li>\n</ul>\n\n__________________________\n\n\n\n<ul>\n<li>+start_detection()</li>\n<li>+prcoess_frame(frame: Image)</li>\n<li>+handle_detection(results: DetectedObject[])</li>\n</ul>\n\n",
+      "type": "text",
+      "width": 440,
+      "x": 860,
+      "y": -1220
+    },
+    {
+      "height": 280,
+      "id": "e7350f1c99b7461a",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>NotificationSystem</h1>\n\n__________________________\n\n<ul>\n<li>-user_id: Integer</li>\n</ul>\n\n__________________________\n\n<ul>\n<li>+send_notification(message: String)</li>\n\n</ul>\n\n\n",
+      "type": "text",
+      "width": 380,
+      "x": 1420,
+      "y": -600
+    },
+    {
+      "height": 320,
+      "id": "c65fb6b8462a666e",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>FoodDetector</h1>\n\n__________________________\n\n<ul>\n<li>-model_path: String </li>\n<li>-confidence_threshhold: Float</li>\n</ul>\n\n__________________________\n\n<ul>\n<li>+load_model()</li>\n<li>+detect_food(frame: Image): DetectedObject[]</li>\n\n</ul>\n\n\n",
+      "type": "text",
+      "width": 480,
+      "x": 840,
+      "y": -600
+    },
+    {
+      "height": 320,
+      "id": "d925b166f33ccbe5",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>DetectedObject</h1>\n\n__________________________\n\n<ul>\n<li>-model_path: String </li>\n<li>-confidence_threshhold: Float</li>\n</ul>\n\n\n",
+      "type": "text",
+      "width": 480,
+      "x": 840,
+      "y": -80
+    }
+  ]
+}

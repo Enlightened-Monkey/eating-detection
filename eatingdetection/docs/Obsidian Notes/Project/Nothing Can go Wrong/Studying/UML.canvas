@@ -134,6 +134,28 @@
       "y": -480
     },
     {
+      "height": 1000,
+      "id": "3e6a75836e56131a",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/",
+      "width": 760,
+      "x": 820,
+      "y": -480
+    },
+    {
+      "height": 80,
+      "id": "d40c48743268f61f",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -320,
+      "y": -160
+    },
+    {
       "height": 80,
       "id": "ad16e26cb2ce0820",
       "styleAttributes": {
@@ -145,15 +167,107 @@
       "y": -160
     },
     {
-      "height": 1000,
-      "id": "3e6a75836e56131a",
+      "height": 300,
+      "id": "d6bb9220a5ea7d0b",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "<h1>CLASS NAME</h1>\n__________________________\n<h2>Attributes</h2>\n__________________________\n\n<h2>Methods</h2>\n\n",
+      "type": "text",
+      "width": 320,
+      "x": 40,
+      "y": -80
+    },
+    {
+      "height": 260,
+      "id": "d4c61d73936bbf72",
       "styleAttributes": {
       },
-      "type": "link",
-      "url": "https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/",
-      "width": 760,
-      "x": 820,
-      "y": -480
+      "text": "\n| Feature              | Conceptual                             | Specification                                | Implementation                     |\n|----------------------|----------------------------------------|----------------------------------------------|------------------------------------|\n| Level of Abstraction | High (reality, domain)                 | Medium (interfaces, behaviors)               | Low (code details)                 |\n| Detail Level         | General concepts, no technical details | Attributes and operations, no implementation | Full details, including data types |\n| Language Dependency  | Independent                            | Partially dependent                          | Dependent on programming language  |\n| User                 | Analysts, business users               | System designers                             | Programmers                        |\n\n",
+      "type": "text",
+      "width": 740,
+      "x": -180,
+      "y": 260
+    },
+    {
+      "height": 80,
+      "id": "42e6bb4e1b4491c1",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -320,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "a3ea85c17621d4f3",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "REALISATION",
+      "type": "text",
+      "width": 180,
+      "x": -520,
+      "y": 100
+    },
+    {
+      "height": 80,
+      "id": "22db4aa52cffc211",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -320,
+      "y": 40
+    },
+    {
+      "height": 80,
+      "id": "9370e1da7d88e9fc",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -320,
+      "y": 240
+    },
+    {
+      "height": 80,
+      "id": "d804a61a5cd4bcdd",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -320,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "1ba7241f1dc6942e",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DEPENDENCY",
+      "type": "text",
+      "width": 180,
+      "x": -520,
+      "y": 200
+    },
+    {
+      "height": 60,
+      "id": "c515f9dffc0c7581",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "AGGREGATION",
+      "type": "text",
+      "width": 180,
+      "x": -520,
+      "y": 300
     },
     {
       "height": 60,
@@ -191,81 +305,37 @@
       "y": 0
     },
     {
-      "height": 260,
-      "id": "d4c61d73936bbf72",
+      "height": 80,
+      "id": "a1a3a949757c1de6",
       "styleAttributes": {
       },
-      "text": "\n| Feature              | Conceptual                             | Specification                                | Implementation                     |\n|----------------------|----------------------------------------|----------------------------------------------|------------------------------------|\n| Level of Abstraction | High (reality, domain)                 | Medium (interfaces, behaviors)               | Low (code details)                 |\n| Detail Level         | General concepts, no technical details | Attributes and operations, no implementation | Full details, including data types |\n| Language Dependency  | Independent                            | Partially dependent                          | Dependent on programming language  |\n| User                 | Analysts, business users               | System designers                             | Programmers                        |\n\n",
+      "text": "\n\n",
       "type": "text",
-      "width": 740,
-      "x": -180,
-      "y": 260
+      "width": 80,
+      "x": -320,
+      "y": 340
     },
     {
-      "height": 300,
-      "id": "d6bb9220a5ea7d0b",
+      "height": 60,
+      "id": "33bd36dff90ad309",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "<h1>CLASS NAME</h1>\n__________________________\n<h2>Attributes</h2>\n__________________________\n\n<h2>Methods</h2>\n\n",
+      "text": "COMPOSITION",
       "type": "text",
-      "width": 320,
-      "x": 40,
-      "y": -80
+      "width": 180,
+      "x": -520,
+      "y": 400
     },
     {
       "height": 80,
-      "id": "d40c48743268f61f",
+      "id": "365ef9c0b54508ac",
       "styleAttributes": {
       },
       "text": "\n\n",
       "type": "text",
       "width": 80,
-      "x": -320,
-      "y": -160
-    },
-    {
-      "height": 80,
-      "id": "22db4aa52cffc211",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -320,
-      "y": 40
-    },
-    {
-      "height": 80,
-      "id": "9370e1da7d88e9fc",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -320,
-      "y": 240
-    },
-    {
-      "height": 80,
-      "id": "d804a61a5cd4bcdd",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -320,
-      "y": -60
-    },
-    {
-      "height": 80,
-      "id": "42e6bb4e1b4491c1",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -320,
+      "x": -620,
       "y": 140
     },
     {
@@ -281,53 +351,6 @@
     },
     {
       "height": 80,
-      "id": "a1a3a949757c1de6",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -320,
-      "y": 340
-    },
-    {
-      "height": 60,
-      "id": "a3ea85c17621d4f3",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "REALISATION",
-      "type": "text",
-      "width": 180,
-      "x": -520,
-      "y": 100
-    },
-    {
-      "height": 60,
-      "id": "33bd36dff90ad309",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "COMPOSITION",
-      "type": "text",
-      "width": 180,
-      "x": -520,
-      "y": 400
-    },
-    {
-      "height": 60,
-      "id": "1ba7241f1dc6942e",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "DEPENDENCY",
-      "type": "text",
-      "width": 180,
-      "x": -520,
-      "y": 200
-    },
-    {
-      "height": 80,
       "id": "6d21cefb054d2e1e",
       "styleAttributes": {
       },
@@ -339,17 +362,6 @@
     },
     {
       "height": 80,
-      "id": "365ef9c0b54508ac",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -620,
-      "y": 140
-    },
-    {
-      "height": 80,
       "id": "285fa969422e79eb",
       "styleAttributes": {
       },
@@ -358,18 +370,6 @@
       "width": 80,
       "x": -620,
       "y": 240
-    },
-    {
-      "height": 60,
-      "id": "c515f9dffc0c7581",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "AGGREGATION",
-      "type": "text",
-      "width": 180,
-      "x": -520,
-      "y": 300
     }
   ]
 }
