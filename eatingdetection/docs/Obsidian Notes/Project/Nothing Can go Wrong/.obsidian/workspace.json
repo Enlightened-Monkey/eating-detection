@@ -11,150 +11,20 @@
             "id": "d04a463f5a93bebb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FIRST STAGE/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "09f455a321cde68d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FIRST STAGE/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "533c511c3b1c982d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MEETINGS/18.05.2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "18.05.2025"
-            }
-          },
-          {
-            "id": "bc0be0ba2062c307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FIRST STAGE/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "cf706bbeaea0f9d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FIRST STAGE/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "4ba3f8efaa20fe94",
-            "type": "leaf",
-            "state": {
               "type": "canvas",
               "state": {
                 "file": "FIRST STAGE/UML Diagram.canvas",
                 "viewState": {
-                  "x": 1473.466436606165,
-                  "y": -305.3905276356093,
-                  "zoom": -0.9780230003623394
+                  "x": 3392.599404208507,
+                  "y": -506.2532462694387,
+                  "zoom": -0.920586180565161
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "UML Diagram"
             }
-          },
-          {
-            "id": "f3c33cce395f255e",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Studying/UML.canvas",
-                "viewState": {
-                  "x": 1063.8238934162755,
-                  "y": -275.0450752347967,
-                  "zoom": -0.008055100175557994
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "UML"
-            }
-          },
-          {
-            "id": "1cc7769e1c19714d",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/",
-                "title": "What is DFD(Data Flow Diagram)? | GeeksforGeeks",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "What is DFD(Data Flow Diagram)? | GeeksforGeeks"
-            }
-          },
-          {
-            "id": "72689e41a94debba",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/670669662/Yolov5-Human-Tracking",
-                "title": "GitHub - 670669662/Yolov5-Human-Tracking: Multi-target tracking simultation and record based on YOLOv5 and DeepSORT",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "GitHub - 670669662/Yolov5-Human-Tracking: Multi-target tracking simultation and record based on YOLOv5 and DeepSORT"
-            }
-          },
-          {
-            "id": "53da4e268dc5dcbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MEETINGS/18.05.2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "18.05.2025"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -325,12 +195,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "1cc7769e1c19714d",
+  "active": "d04a463f5a93bebb",
   "lastOpenFiles": [
+    "FIRST STAGE/Untitled.md",
+    "FIRST STAGE/UML Diagram.canvas",
     "Studying/UML.canvas",
     "MEETINGS/26.05.2025.md",
     "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.svg",
-    "FIRST STAGE/UML Diagram.canvas",
     "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
     "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.md",
     "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.png",
@@ -338,7 +209,6 @@
     "MEETINGS/18.05.2025.md",
     "MEETINGS/02.06.2025.md",
     "Pasted image 20250604093055.png",
-    "FIRST STAGE/Untitled.md",
     "Pasted image 20250525135800.png",
     "Pasted image 20250526095748.png",
     "IDEAS/IDEA GENERATION.canvas",

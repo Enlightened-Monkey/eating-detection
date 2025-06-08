@@ -128,6 +128,58 @@
       },
       "toNode": "d2ba5f432869200c",
       "toSide": "left"
+    },
+    {
+      "fromNode": "841b4c2fd7cde5a9",
+      "fromSide": "top",
+      "id": "a8d05f4b552eeb02",
+      "label": "model data",
+      "styleAttributes": {
+      },
+      "toNode": "e4568fb3f096412f",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "44edbc1096958a1e",
+      "fromSide": "bottom",
+      "id": "d40e9ab8c4590731",
+      "label": "image\ndata",
+      "styleAttributes": {
+      },
+      "toNode": "e4568fb3f096412f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e4568fb3f096412f",
+      "fromSide": "right",
+      "id": "ba00c00e5bb59ecc",
+      "label": "notification",
+      "styleAttributes": {
+      },
+      "toNode": "72ba8ada07741624",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c6103beb5ded0d80",
+      "fromSide": "bottom",
+      "id": "72d0cc19f60804ec",
+      "label": "<<include>>",
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "toNode": "25fc97a6f05e0cf1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "25fc97a6f05e0cf1",
+      "fromSide": "bottom",
+      "id": "78c7ebd06f739ac7",
+      "label": "<<extend>>",
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "toNode": "5c190dc2fa7d89bf",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -142,6 +194,17 @@
       "width": 1320,
       "x": -920,
       "y": -600
+    },
+    {
+      "height": 840,
+      "id": "1a4243b813cd94c8",
+      "label": "FOOD DETECTION",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 440,
+      "x": 2520,
+      "y": -840
     },
     {
       "height": 700,
@@ -165,28 +228,6 @@
       "width": 280,
       "x": -880,
       "y": -520
-    },
-    {
-      "height": 640,
-      "id": "1a4243b813cd94c8",
-      "label": "FOOD DETECTION",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 440,
-      "x": 2520,
-      "y": -840
-    },
-    {
-      "height": 360,
-      "id": "aaee675ff4d24168",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=WnMQ8HlmeXc",
-      "width": 740,
-      "x": -400,
-      "y": -560
     },
     {
       "height": 140,
@@ -246,6 +287,39 @@
       "y": 220
     },
     {
+      "height": 80,
+      "id": "53b4c3469965985e",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": -240
+    },
+    {
+      "height": 80,
+      "id": "a1e2af495e557568",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": -240
+    },
+    {
+      "height": 360,
+      "id": "aaee675ff4d24168",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://www.youtube.com/watch?v=WnMQ8HlmeXc",
+      "width": 740,
+      "x": -400,
+      "y": -560
+    },
+    {
       "height": 300,
       "id": "6d64c2fd9eb7fb1d",
       "styleAttributes": {
@@ -256,6 +330,18 @@
       "width": 320,
       "x": -200,
       "y": -160
+    },
+    {
+      "height": 420,
+      "id": "a6efb6ca4e5de40e",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>Camera</h1>\n\n__________________________\n<ul>\n<li>-camera_id: int</li>\n<li>-resolution: int </li>\n<li>-frame_rate: int </li>\n</ul>\n\n__________________________\n<ul>\n<li>+capture_frame(): Image</li>\n<li>+start_stream()</li>\n<li>+stop_stream() </li>\n</ul>\n\n\n\n\n",
+      "type": "text",
+      "width": 320,
+      "x": 460,
+      "y": -600
     },
     {
       "height": 260,
@@ -270,17 +356,6 @@
     },
     {
       "height": 80,
-      "id": "704562e430442fe7",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -860,
-      "y": -140
-    },
-    {
-      "height": 80,
       "id": "4f9f954a97f04d62",
       "styleAttributes": {
       },
@@ -289,17 +364,6 @@
       "width": 80,
       "x": -560,
       "y": 160
-    },
-    {
-      "height": 80,
-      "id": "715237d51ded25cd",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -560,
-      "y": -140
     },
     {
       "height": 80,
@@ -324,6 +388,64 @@
       "y": 60
     },
     {
+      "height": 200,
+      "id": "d925b166f33ccbe5",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>DetectedObject</h1>\n\n__________________________\n\n<ul>\n<li>-model_path: String </li>\n<li>-confidence_threshhold: Float</li>\n</ul>\n\n\n",
+      "type": "text",
+      "width": 480,
+      "x": 840,
+      "y": -80
+    },
+    {
+      "height": 320,
+      "id": "c65fb6b8462a666e",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>FoodDetector</h1>\n\n__________________________\n\n<ul>\n<li>-model_path: String </li>\n<li>-confidence_threshhold: Float</li>\n</ul>\n\n__________________________\n\n<ul>\n<li>+load_model()</li>\n<li>+detect_food(frame: Image): DetectedObject[]</li>\n\n</ul>\n\n\n",
+      "type": "text",
+      "width": 480,
+      "x": 840,
+      "y": -600
+    },
+    {
+      "height": 420,
+      "id": "1d12a7f1f87955aa",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "<h1>FoodDetectionSystem</h1>\n\n__________________________\n\n<ul>\n<li>-camera: Camera </li>\n<li>-detector: FoodDetector</li>\n<li>-notifier: NotificationSystem</li>\n</ul>\n\n__________________________\n\n\n\n<ul>\n<li>+start_detection()</li>\n<li>+prcoess_frame(frame: Image)</li>\n<li>+handle_detection(results: DetectedObject[])</li>\n</ul>\n\n",
+      "type": "text",
+      "width": 440,
+      "x": 860,
+      "y": -1200
+    },
+    {
+      "height": 80,
+      "id": "704562e430442fe7",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -860,
+      "y": -140
+    },
+    {
+      "height": 80,
+      "id": "715237d51ded25cd",
+      "styleAttributes": {
+      },
+      "text": "\n\n",
+      "type": "text",
+      "width": 80,
+      "x": -560,
+      "y": -140
+    },
+    {
       "height": 60,
       "id": "8a77d8e5aabd8cee",
       "styleAttributes": {
@@ -336,28 +458,6 @@
       "y": -80
     },
     {
-      "height": 80,
-      "id": "53b4c3469965985e",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -860,
-      "y": -240
-    },
-    {
-      "height": 80,
-      "id": "a1e2af495e557568",
-      "styleAttributes": {
-      },
-      "text": "\n\n",
-      "type": "text",
-      "width": 80,
-      "x": -560,
-      "y": -240
-    },
-    {
       "height": 60,
       "id": "3cfeb2c5e7cd71e9",
       "styleAttributes": {
@@ -368,18 +468,6 @@
       "width": 180,
       "x": -760,
       "y": -180
-    },
-    {
-      "height": 420,
-      "id": "a6efb6ca4e5de40e",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "<h1>Camera</h1>\n\n__________________________\n<ul>\n<li>-camera_id: int</li>\n<li>-resolution: int </li>\n<li>-frame_rate: int </li>\n</ul>\n\n__________________________\n<ul>\n<li>+capture_frame(): Image</li>\n<li>+start_stream()</li>\n<li>+stop_stream() </li>\n</ul>\n\n\n\n\n",
-      "type": "text",
-      "width": 320,
-      "x": 460,
-      "y": -600
     },
     {
       "height": 80,
@@ -439,18 +527,6 @@
       "y": 320
     },
     {
-      "height": 420,
-      "id": "1d12a7f1f87955aa",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "<h1>FoodDetectionSystem</h1>\n\n__________________________\n\n<ul>\n<li>-camera: Camera </li>\n<li>-detector: FoodDetector</li>\n<li>-notifier: NotificationSystem</li>\n</ul>\n\n__________________________\n\n\n\n<ul>\n<li>+start_detection()</li>\n<li>+prcoess_frame(frame: Image)</li>\n<li>+handle_detection(results: DetectedObject[])</li>\n</ul>\n\n",
-      "type": "text",
-      "width": 440,
-      "x": 860,
-      "y": -1220
-    },
-    {
       "height": 280,
       "id": "e7350f1c99b7461a",
       "styleAttributes": {
@@ -463,30 +539,6 @@
       "y": -600
     },
     {
-      "height": 320,
-      "id": "d925b166f33ccbe5",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "<h1>DetectedObject</h1>\n\n__________________________\n\n<ul>\n<li>-model_path: String </li>\n<li>-confidence_threshhold: Float</li>\n</ul>\n\n\n",
-      "type": "text",
-      "width": 480,
-      "x": 840,
-      "y": -80
-    },
-    {
-      "height": 320,
-      "id": "c65fb6b8462a666e",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "<h1>FoodDetector</h1>\n\n__________________________\n\n<ul>\n<li>-model_path: String </li>\n<li>-confidence_threshhold: Float</li>\n</ul>\n\n__________________________\n\n<ul>\n<li>+load_model()</li>\n<li>+detect_food(frame: Image): DetectedObject[]</li>\n\n</ul>\n\n\n",
-      "type": "text",
-      "width": 480,
-      "x": 840,
-      "y": -600
-    },
-    {
       "file": "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.svg",
       "height": 400,
       "id": "602129eca9574f96",
@@ -495,19 +547,6 @@
       "type": "file",
       "width": 254,
       "x": 2120,
-      "y": -680
-    },
-    {
-      "height": 120,
-      "id": "c6103beb5ded0d80",
-      "styleAttributes": {
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "# TURN DETECTION SYSTEM ON/OFF",
-      "type": "text",
-      "width": 360,
-      "x": 2560,
       "y": -680
     },
     {
@@ -524,15 +563,105 @@
     },
     {
       "height": 120,
-      "id": "d2ba5f432869200c",
+      "id": "e4568fb3f096412f",
       "styleAttributes": {
-        "shape": "circle"
+        "shape": "circle",
+        "textAlign": "center"
       },
-      "text": "",
+      "text": "FOOD DETECTION SYSTEM",
+      "type": "text",
+      "width": 320,
+      "x": 3160,
+      "y": -560
+    },
+    {
+      "height": 160,
+      "id": "44edbc1096958a1e",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# CAMERA",
+      "type": "text",
+      "width": 240,
+      "x": 3200,
+      "y": -960
+    },
+    {
+      "height": 80,
+      "id": "841b4c2fd7cde5a9",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": "center"
+      },
+      "text": "| trained network |\n",
+      "type": "text",
+      "width": 240,
+      "x": 3200,
+      "y": -240
+    },
+    {
+      "height": 120,
+      "id": "72ba8ada07741624",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "USER",
+      "type": "text",
+      "width": 160,
+      "x": 3800,
+      "y": -560
+    },
+    {
+      "height": 120,
+      "id": "c6103beb5ded0d80",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "# TURN DETECTION SYSTEM ON",
       "type": "text",
       "width": 360,
       "x": 2560,
-      "y": -440
+      "y": -800
+    },
+    {
+      "height": 120,
+      "id": "25fc97a6f05e0cf1",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "# DETECT FOOD",
+      "type": "text",
+      "width": 360,
+      "x": 2560,
+      "y": -560
+    },
+    {
+      "height": 120,
+      "id": "5c190dc2fa7d89bf",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "# NOTIFY USER",
+      "type": "text",
+      "width": 360,
+      "x": 2560,
+      "y": -320
+    },
+    {
+      "height": 120,
+      "id": "d2ba5f432869200c",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "# TURN DETECTION SYSTEM OFF",
+      "type": "text",
+      "width": 360,
+      "x": 2560,
+      "y": -160
     }
   ]
 }
