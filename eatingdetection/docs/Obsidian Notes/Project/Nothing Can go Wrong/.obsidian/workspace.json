@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b1acea91b57f2889",
+        "id": "a29c2b09dff68403",
         "type": "tabs",
         "children": [
           {
-            "id": "d04a463f5a93bebb",
+            "id": "d7bbaeae07daf9be",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "FIRST STAGE/UML Diagram.canvas",
-                "viewState": {
-                  "x": 3392.599404208507,
-                  "y": -506.2532462694387,
-                  "zoom": -0.920586180565161
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "UML Diagram"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -81,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 292.51103591918945
   },
   "right": {
     "id": "bdeb40dea01106a6",
@@ -91,6 +84,23 @@
         "id": "d47bb732f71351b6",
         "type": "tabs",
         "children": [
+          {
+            "id": "d04a463f5a93bebb",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "FIRST STAGE/UML Diagram.canvas",
+                "viewState": {
+                  "x": 1141.2356929959462,
+                  "y": -776.1261094723261,
+                  "zoom": -0.44808320509062555
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "UML Diagram"
+            }
+          },
           {
             "id": "d1680e462f360f77",
             "type": "leaf",
@@ -175,11 +185,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 394.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,23 +205,24 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "d04a463f5a93bebb",
+  "active": "85f52e1c945502db",
   "lastOpenFiles": [
-    "FIRST STAGE/Untitled.md",
     "FIRST STAGE/UML Diagram.canvas",
-    "Studying/UML.canvas",
+    "MEETINGS/09.06.2025.md",
+    "MEETINGS/02.06.2025.md",
     "MEETINGS/26.05.2025.md",
+    "MEETINGS/18.05.2025.md",
+    "IDEAS/IDEA GENERATION.canvas",
+    "FIRST STAGE/Untitled.md",
+    "Studying/UML.canvas",
     "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.svg",
     "Excalidraw/Drawing 2025-05-26 09.48.15.excalidraw.md",
     "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.md",
     "Excalidraw/Drawing 2025-06-04 15.12.47.excalidraw.png",
     "TASK CENTRE.canvas",
-    "MEETINGS/18.05.2025.md",
-    "MEETINGS/02.06.2025.md",
     "Pasted image 20250604093055.png",
     "Pasted image 20250525135800.png",
     "Pasted image 20250526095748.png",
-    "IDEAS/IDEA GENERATION.canvas",
     "Excalidraw",
     "Untitled.md",
     "Studying",
@@ -244,7 +255,6 @@
     "Additional files/Attention Magnets.md",
     "PRODUSIGN/Design Document.md",
     "Excalidraw/Drawing 2025-01-27 20.48.19.excalidraw.md",
-    "2025-02-02.md",
     "Additional files/NewDesignDocTemplate.pdf"
   ]
 }

@@ -47,66 +47,6 @@
     },
     {
       "height": 60,
-      "id": "5bfb7f4b8733d376",
-      "styleAttributes": {
-      },
-      "text": "scooting dog detection",
-      "type": "text",
-      "width": 260,
-      "x": -200,
-      "y": -100
-    },
-    {
-      "height": 60,
-      "id": "0a6e16b4a751c418",
-      "styleAttributes": {
-      },
-      "text": "Eating detection in library",
-      "type": "text",
-      "width": 260,
-      "x": -200,
-      "y": -200
-    },
-    {
-      "height": 60,
-      "id": "c0de85aa75defab9",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# Selected ideas \n\n",
-      "type": "text",
-      "width": 260,
-      "x": -200,
-      "y": -280
-    },
-    {
-      "color": "#bf9c00",
-      "height": 100,
-      "id": "015b0457c185752e",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "<h1>EATING DETECTION IN LIBRARY</h1>\n\n",
-      "type": "text",
-      "width": 300,
-      "x": 140,
-      "y": -200
-    },
-    {
-      "height": 60,
-      "id": "446e87a9295168ce",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": " 👑",
-      "type": "text",
-      "width": 80,
-      "x": 240,
-      "y": -280
-    },
-    {
-      "height": 60,
       "id": "204b92b1e6d78e98",
       "styleAttributes": {
         "border": "invisible",
@@ -199,6 +139,66 @@
       "width": 260,
       "x": -640,
       "y": 260
+    },
+    {
+      "height": 60,
+      "id": "5bfb7f4b8733d376",
+      "styleAttributes": {
+      },
+      "text": "scooting dog detection",
+      "type": "text",
+      "width": 260,
+      "x": -200,
+      "y": -100
+    },
+    {
+      "height": 60,
+      "id": "0a6e16b4a751c418",
+      "styleAttributes": {
+      },
+      "text": "Eating detection in library",
+      "type": "text",
+      "width": 260,
+      "x": -200,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "c0de85aa75defab9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# Selected ideas \n\n",
+      "type": "text",
+      "width": 260,
+      "x": -200,
+      "y": -280
+    },
+    {
+      "color": "#bf9c00",
+      "height": 100,
+      "id": "015b0457c185752e",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "<h1>EATING DETECTION IN LIBRARY</h1>\n\n",
+      "type": "text",
+      "width": 300,
+      "x": 140,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "446e87a9295168ce",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": " 👑",
+      "type": "text",
+      "width": 80,
+      "x": 240,
+      "y": -280
     }
   ]
 }
