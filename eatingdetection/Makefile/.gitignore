@@ -1,0 +1,4 @@
+# Ignore all files in this virtual environment folder
+*
+# But allow this .gitignore itself
+!.gitignore
