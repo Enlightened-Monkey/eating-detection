@@ -1,0 +1,5 @@
+# Requires: Python >=3.8
+ultralytics
+opencv-python
+pytest
+pytest-mock

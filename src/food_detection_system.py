@@ -1,3 +1,5 @@
+import sys
+import os
 import time
 import threading
 from yolo import YOLO
@@ -11,11 +13,12 @@ class FoodDetectionSystem:
 
     def initialize_yolo(self):
         try:
+            model_path = os.path.join(os.path.dirname(__file__), "detectionmodels", "yolo12l.pt")
             self.yolo = YOLO(
                 camera_index=0,
                 resolution=self.user_settings['camera_settings']['resolution'],
                 frame_check_interval=self.user_settings['camera_settings']['frame_check_interval'],
-                model_path="eatingdetection/src/detectionmodels/yolo12l.pt",
+                model_path=model_path,
                 threshold=self.user_settings['threshold']
             )
             self.yolo.initialize_camera()

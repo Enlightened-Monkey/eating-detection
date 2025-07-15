@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import pytest
 from unittest.mock import patch, Mock
@@ -98,14 +98,15 @@ def test_set_camera_settings_negative_interval(app):
         with pytest.raises(ValueError, match="Frame check interval must be positive."):
             app.set_camera_settings()
 
-# def test_run_command_valid(app):
-#     # Mockujemy metodę display_help
-#     with patch.object(app, 'display_help') as mock_display_help:
-#         # Wywołujemy run_command z poprawną komendą
-#         app.run_command('help')
+@pytest.mark.skip(reason="I need to fix this test later")
+def test_run_command_valid(app):
+    # Mockujemy metodę display_help
+    with patch.object(app, 'display_help') as mock_display_help:
+        # Wywołujemy run_command z poprawną komendą
+        app.run_command('help')
         
-#         # Sprawdzamy, czy metoda display_help została wywołana
-#         mock_display_help.assert_called_once()
+        # Sprawdzamy, czy metoda display_help została wywołana
+        mock_display_help.assert_called_once()
 
 def test_run_command_invalid(app):
     # Mockujemy print
