@@ -11,7 +11,7 @@ Make sure you have Python 3.8 or newer installed.
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/eating-detection.git
+git clone git@github.com:Enlightened-Monkey/eating-detection.git
 cd eating-detection
 ```
 
@@ -20,7 +20,7 @@ cd eating-detection
 Install required libraries using pip:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 4. Run the notification client (optional)
