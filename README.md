@@ -1,6 +1,6 @@
 # Eating Detection
 
-This project detects selected objects (e.g., bottles) in camera images and provides a command-line interface for configuration and control.
+This project detects selected objects (e.g., bottles) in camera images, notify user when certain object is detected and provides a command-line interface for configuration and control.
 
 ## Step-by-step instructions
 
