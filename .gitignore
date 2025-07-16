@@ -163,3 +163,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+src/detectionmodels/*
+!src/detectionmodels/.gitkeep
