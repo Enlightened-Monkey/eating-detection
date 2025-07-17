@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 Open a new terminal and start the notification client to receive notifications when desired object is detected:
 
 ```bash
-python src/notification_client.py
+notification_client.py
 ```
 
 ### 5. Run the main application
@@ -36,7 +36,7 @@ python src/notification_client.py
 In another terminal, start the main program:
 
 ```bash
-python src/main.py
+main.py
 ```
 
 ### 6. Use the command-line interface
