@@ -1,7 +1,12 @@
+#!/usr/bin/env python
+import sys
 import os
 import json
 import time
-from cmdApp import CMDApp
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), './src')))
+
+from cmd_app import CMDApp
 from food_detection_system import FoodDetectionSystem
 from notification_system import NotificationSystem
 
