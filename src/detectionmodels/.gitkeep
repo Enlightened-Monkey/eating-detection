@@ -1,2 +1,0 @@
-# This file ensures the detectionmodels folder is tracked by git.
-# Do not remove. You can place your YOLO model files here, but they will be ignored since they are automaically dowloaded

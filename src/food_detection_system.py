@@ -13,7 +13,8 @@ class FoodDetectionSystem:
 
     def initialize_yolo(self):
         try:
-            model_path = os.path.join(os.path.dirname(__file__), "detectionmodels", "yolo12l.pt")
+            project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+            model_path = os.path.join(project_root, "data", "detectionmodels", "yolo12l.pt")
             self.yolo = YOLO(
                 camera_index=0,
                 resolution=self.user_settings['camera_settings']['resolution'],
