@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 import pytest
 from unittest.mock import patch, MagicMock
@@ -72,7 +72,7 @@ def test_detect_objects_exception(yolo):
 
 def test_release_camera(yolo):
     yolo.camera = MagicMock()
-    yolo.release_camera()
+    yolo.camera.release_camera()
     yolo.camera.release.assert_called_once()
     assert yolo.camera is None
 

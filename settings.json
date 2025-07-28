@@ -1,0 +1,16 @@
+{
+    "objects_to_detect": [
+        "bottle"
+    ],
+    "threshold": 0.5,
+    "camera_settings": {
+        "resolution": [
+            640,
+            480
+        ],
+        "frame_check_interval": 1
+    },
+    "user_ids": [
+        1
+    ]
+}
