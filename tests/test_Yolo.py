@@ -71,9 +71,10 @@ def test_detect_objects_exception(yolo):
     assert detected == []
 
 def test_release_camera(yolo):
-    yolo.camera = MagicMock()
-    yolo.camera.release_camera()
-    yolo.camera.release.assert_called_once()
+    mock_camera = MagicMock()
+    yolo.camera = mock_camera
+    yolo.release_camera()  
+    mock_camera.release.assert_called_once()
     assert yolo.camera is None
 
 def test_get_detected_objects(yolo):
