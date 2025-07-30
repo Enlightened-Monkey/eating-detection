@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+Main application entry point for the eating detection system.
+
+This module provides the main application logic, settings management,
+and user interaction loop for the food detection system.
+"""
+
 import sys
 import os
 import json
@@ -14,6 +21,13 @@ SETTINGS_FILE = os.path.join(os.path.dirname(__file__), "settings.json")
 
 # Load or create settings file
 def load_settings():
+    """
+    Load user settings from the settings file or create default settings.
+    
+    Returns:
+        dict: Dictionary containing user settings including detection targets,
+            thresholds, camera settings, and user IDs.
+    """
     if not os.path.exists(SETTINGS_FILE):
         default_settings = {
             "objects_to_detect": ["bottle"],
@@ -31,13 +45,36 @@ def load_settings():
         return json.load(f)
 
 def save_settings(settings):
+    """
+    Save user settings to the settings file.
+    
+    Args:
+        settings (dict): Dictionary containing user settings to save.
+    """
     with open(SETTINGS_FILE, "w") as f:
         json.dump(settings, f, indent=4)
 
 def notification_callback(message):
+    """
+    Callback function for handling notifications.
+    
+    Args:
+        message (str): The notification message to display.
+    """
     print(f"NOTIFICATION: {message}")
 
 def detection_loop(food_system, user_settings, running_flag):
+    """
+    Manual detection loop for checking objects (deprecated).
+    
+    This function runs a detection loop that manually checks for objects
+    at regular intervals. This is mainly used for testing or fallback scenarios.
+    
+    Args:
+        food_system (FoodDetectionSystem): The detection system instance.
+        user_settings (dict): User configuration settings.
+        running_flag (dict): Dictionary with 'running' key to control the loop.
+    """
     while running_flag['running']:
         detected = food_system.check_detections()
         if detected:
@@ -45,6 +82,15 @@ def detection_loop(food_system, user_settings, running_flag):
         time.sleep(user_settings['camera_settings']['frame_check_interval'])
 
 def settings_input_loop(user_settings):
+    """
+    Interactive loop for modifying settings via command line (deprecated).
+    
+    Provides a simple command-line interface for modifying threshold and
+    frame check interval settings. This is mainly kept for backwards compatibility.
+    
+    Args:
+        user_settings (dict): User configuration settings to modify.
+    """
     print("You can change settings by typing e.g. 'threshold 0.7' or 'frame_check_interval 2'. Type 'exit' to finish.")
     while True:
         inp = input("Setting: ")
@@ -68,6 +114,13 @@ def settings_input_loop(user_settings):
             print(f"Error: {str(e)}")
 
 def main():
+    """
+    Main application function that orchestrates the food detection system.
+    
+    This function initializes all system components, sets up the notification
+    system, and runs the main command loop for user interaction. It handles
+    starting/stopping detection, configuring settings, and graceful shutdown.
+    """
     user_settings = load_settings()
     cmd_app = CMDApp(user_settings)
     notification_system = NotificationSystem()
