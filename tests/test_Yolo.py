@@ -24,11 +24,19 @@ def test_initialize_camera_success(yolo):
         mock_instance.set.assert_any_call(4, 480)
 
 def test_initialize_camera_failure(yolo):
-    with patch('cv2.VideoCapture') as mock_capture:
+    with patch('cv2.VideoCapture') as mock_capture, \
+         patch('os.path.exists', return_value=True), \
+         patch('cv2.imread', return_value='fallback_frame') as mock_imread:
+        
         mock_instance = mock_capture.return_value
         mock_instance.isOpened.return_value = False
-        with pytest.raises(RuntimeError, match="Error: Could not open webcam."):
-            yolo.initialize_camera()
+
+        yolo.initialize_camera()
+
+        mock_instance.release.assert_called_once()
+        assert yolo.camera is None
+        mock_imread.assert_called_once()
+        assert yolo.fallback_frame == 'fallback_frame'
 
 def test_capture_image_success(yolo):
     yolo.camera = MagicMock()

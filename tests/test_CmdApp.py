@@ -99,10 +99,20 @@ def test_set_camera_settings_negative_interval(app):
         with pytest.raises(ValueError, match="Frame check interval must be positive."):
             app.set_camera_settings()
 
-@pytest.mark.skip(reason="I need to fix this test later")
-def test_run_command_valid(app):
-    # Mock display_help method
-    with patch.object(app, 'display_help') as mock_display_help:
+
+def test_run_command_valid():
+    # Create example user settings (duplicated from fixture to allow patching before instantiation)
+    user_settings = {
+        'objects_to_detect': ['bottle'],
+        'threshold': 0.5,
+        'camera_settings': {
+            'resolution': [640, 480],
+            'frame_check_interval': 1.0
+        }
+    }
+    # Mock display_help at the class level before creating the app instance
+    with patch.object(CMDApp, 'display_help') as mock_display_help:
+        app = CMDApp(user_settings)
         # Call run_command with valid command
         app.run_command('help')
         
