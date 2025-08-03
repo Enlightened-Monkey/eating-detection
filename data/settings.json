@@ -1,6 +1,6 @@
 {
     "objects_to_detect": [
-        "bottle"
+        "person"
     ],
     "threshold": 0.5,
     "camera_settings": {

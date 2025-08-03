@@ -10,7 +10,7 @@ from cmd_app import CMDApp
 from food_detection_system import FoodDetectionSystem
 from notification_system import NotificationSystem
 
-SETTINGS_FILE = os.path.join(os.path.dirname(__file__), "settings.json")
+SETTINGS_FILE = os.path.join(os.path.dirname(__file__), "data", "settings.json")
 
 # Load or create settings file
 def load_settings():
