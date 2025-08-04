@@ -12,6 +12,7 @@ eating-detection/
 │       └── yolo12l.pt
 ├── docs/
 │   └── app_running.png
+│   └── main_setup.py
 ├── src/
 │   ├── __init__.py
 │   ├── cmd_app.py
